@@ -64,12 +64,27 @@ h2{
   text-align: center;
 
 }
+#features{
+  text-align: center;
+
+}
+
+.lilita-one-regular{
+  padding-top: 50px;
+}
+
+#testimonials{
+
+}
+
+h1,p{
+  font-size: 150%;
+}
+
 }
 
 /* features */
-#features{
 
-}
 
 
 /* testimonials */
@@ -81,7 +96,8 @@ h2{
 }
 
 .testimonial-image{
-  width: 10%;
+  height: 30%;
+  width: 30%;
   border-radius: 100%;
   margin: 20px;
 }
@@ -165,7 +181,7 @@ h2{
 #callta{
   background-color: #EB1D36;
   color: #fff;
-  margin-top: 70px;
+  margin-top: 20px;
   padding: 5% 10%;
 }
 
@@ -180,4 +196,201 @@ h2{
 .state:hover {
   color: #F0EBE3;
   text-decoration: none;
+}
+
+/* contact page */
+#bowl{
+  text-align: center;
+}
+
+hr.new2 {
+  margin-top: 10%;
+  margin-bottom: 10%;
+  border-top: 5px dotted #EB1D36;
+  width: 5%;
+}
+
+.form2{
+  font-family: Arial;
+}
+
+.backdrop{
+  color: black;
+  background-color: #f1f0f0bf;
+  padding: 20px;
+  margin: 15% 0% 5% 25%;
+  border: 1px solid #EB1D36;
+  text-align: center;
+  width: 50%;
+}
+
+
+#example{
+  background-color: #f1f0f0bf;
+  width: 50%;
+  margin: 0 0 10% 25%;
+  border: 1px solid #EB1D36;
+  padding: 20px;
+  box-shadow: 5px 10px #EB1D36;
+  text-align: center;
+}
+
+input[type=text], input[type=submit] {
+  width: 100%;
+  padding: 12px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+input[type=checkbox] {
+  margin-top: 16px;
+}
+
+input[type=submit] {
+  background-color: #dc3545;
+  color: white;
+  border: none;
+  width: 25%;
+  margin-top: 5%;
+  margin-left: 37%;
+  margin-bottom: 10%;
+}
+
+input[type=submit]:hover {
+  opacity: 0.8;
+}
+
+/* about-page */
+
+
+
+#md-container{
+  margin-top: 100px;
+}
+
+
+}
+
+/* my videos */
+#myVideo {
+  right: 0;
+  bottom: 0;
+  margin-left: 100px;
+  margin-top: 10px;
+  height: 700px;
+
+}
+
+.content {
+  font-size: 30px;
+}
+
+.wid{
+  padding-right: 20px;
+}
+
+.vid{
+  padding-right: 20px;
+}
+
+
+#clips{
+  margin-top: 100px;
+  text-align:center;
+
+}
+
+.lint:link {
+  color: red;
+  background-color: transparent;
+  text-decoration: none;
+}
+.lint:visited {
+  color: red;
+  background-color: transparent;
+  text-decoration: none;
+}
+.lint:hover {
+  color: #F0EBE3;
+  background-color: transparent;
+  text-decoration: underline;
+}
+.lint:active {
+  color: red;
+  background-color: transparent;
+  text-decoration: underline;
+}
+/*
+social-media-links */
+.icon-bar {
+  position: fixed;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.icon-bar a {
+  display: block;
+  text-align: center;
+  padding: 16px;
+  transition: all 0.3s ease;
+  font-size: 20px;
+}
+
+.icon-bar a:hover {
+  background-color: #000;
+}
+
+/* gallery-page */
+* {
+  box-sizing: border-box;
+}
+
+
+
+.header {
+  text-align: center;
+  padding: 32px;
+}
+
+.wor {
+  display: -ms-flexbox; /* IE 10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE 10 */
+  flex-wrap: wrap;
+  padding: 0 5%;
+}
+
+/* Create two equal columns that sits next to each other */
+.column {
+  -ms-flex: 50%; /* IE 10 */
+  flex: 50%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+}
+
+/* Style the buttons */
+.btn {
+  border: none;
+  outline: none;
+  padding: 10px 16px;
+  background-color: #f1f1f1;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.btn:hover {
+  background-color: #ddd;
+}
+
+.btn.active {
+  background-color: #666;
+  color: white;
 }
